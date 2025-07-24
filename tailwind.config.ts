@@ -61,7 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'sports-gold': 'hsl(var(--sports-gold))',
+				'sports-red': 'hsl(var(--sports-red))',
+				'sports-blue': 'hsl(var(--sports-blue))',
+				'dark-wood': 'hsl(var(--dark-wood))',
+				'field-green': 'hsl(var(--field-green))'
+			},
+			fontFamily: {
+				'scoreboard': ['Impact', 'Franklin Gothic Bold', 'Arial Black', 'sans-serif'],
+				'sans': ['Inter', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
